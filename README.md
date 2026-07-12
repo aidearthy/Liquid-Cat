@@ -15,6 +15,9 @@ It is designed for moments when two ideas look unrelated at first, but may share
 - Prefer reusable paths over one-off cleverness.
 - Treat local fixes as local fixes, not global completion.
 - Separate observation, hypothesis, and conclusion.
+- Treat permission as capability, not intent.
+- Keep exploratory freedom separate from execution authority.
+- Restore full evaluation before irreversible or externally consequential action.
 
 ## Operating modes
 
@@ -32,7 +35,7 @@ Expected output:
 
 ### Pawprint Audit
 
-Use this when checking whether a proposed change is clean, reusable, and non-duplicative.
+Use this when checking whether a proposed change is clean, reusable, non-duplicative, and properly bounded before execution.
 
 Audit questions:
 
@@ -41,6 +44,20 @@ Audit questions:
 - Is this a local patch being mistaken for a complete solution?
 - Are there duplicated concepts, files, or instructions?
 - Is the next action clear?
+- Was permission mistaken for intent?
+- Did exploratory freedom leak into execution authority?
+- Was irreversibility reassessed immediately before action?
+- Could a read-only, reversible, preview, draft, or simulation path be used instead?
+
+## Agentic actuation boundary
+
+Liquid Cat allows wide exploration inside stable boundary conditions.
+
+Before an external or irreversible action, the system must return to the Observer position and revalidate intent, scope, consequence, reversibility, and confirmation requirements.
+
+> Wild in imagination. Conservative at the boundary of reality.
+
+See [Agentic_Actuation_Boundary.md](./Agentic_Actuation_Boundary.md) for the full failure model, Phase Leakage analysis, and Return-to-Observer Gate.
 
 ## Repository status
 
