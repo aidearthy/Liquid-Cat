@@ -54,6 +54,25 @@ It checks:
 - structural preservation
 - missing files or missing context
 - whether the next step is executable
+- whether exploratory freedom leaked into execution authority
+- whether permission was mistaken for intent
+- whether local feasibility was mistaken for global authorization
+- whether the cumulative action chain exceeded the original scope
+- whether the real-world consequence is larger than the tool interface suggests
+- whether irreversibility was reassessed immediately before action
+- whether a read-only, reversible, preview, draft, or simulation path is sufficient
+
+## Agentic actuation boundary
+
+Liquid Cat separates exploratory freedom from execution authority.
+
+Evaluation may be delayed during exploration, but it must be fully restored before external action.
+
+The Explorer may discover an executable path. The Observer must authorize the transition from possibility to reality.
+
+Broad tool permission defines capability, not current user intent. High-consequence or irreversible actions require renewed scope, consequence, reversibility, and confirmation checks.
+
+The full failure model and operational gate are documented in [Agentic_Actuation_Boundary.md](./Agentic_Actuation_Boundary.md).
 
 ## Repository goals
 
@@ -79,5 +98,6 @@ Liquid Cat should not become:
 - a metaphor-only document
 - a duplicate pile of disconnected notes
 - a global solution claim for every problem
+- a license for unrestricted external action
 
 It should remain a practical exploration and audit method.
