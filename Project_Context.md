@@ -56,6 +56,7 @@ It checks:
 - whether the next step is executable
 - whether exploratory freedom leaked into execution authority
 - whether permission was mistaken for intent
+- whether denial was treated as an optimization problem instead of a stop condition
 - whether local feasibility was mistaken for global authorization
 - whether the cumulative action chain exceeded the original scope
 - whether the real-world consequence is larger than the tool interface suggests
@@ -71,6 +72,8 @@ Evaluation may be delayed during exploration, but it must be fully restored befo
 The Explorer may discover an executable path. The Observer must authorize the transition from possibility to reality.
 
 Broad tool permission defines capability, not current user intent. High-consequence or irreversible actions require renewed scope, consequence, reversibility, and confirmation checks.
+
+Denied, forbidden, unauthorized, declined, or blocked paths are terminal boundary states. They are not new puzzles for Liquid Cat to optimize around.
 
 The full failure model and operational gate are documented in [Agentic_Actuation_Boundary.md](./Agentic_Actuation_Boundary.md).
 
@@ -99,5 +102,6 @@ Liquid Cat should not become:
 - a duplicate pile of disconnected notes
 - a global solution claim for every problem
 - a license for unrestricted external action
+- a method for turning refusal or denial into an optimization target
 
 It should remain a practical exploration and audit method.
